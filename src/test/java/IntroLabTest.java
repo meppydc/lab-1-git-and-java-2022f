@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+    @Test(timeout = 10)
+    public void testInsertUtorIDPlaceholder() {
+        String expected = "Hi! My name is dan!" +
+                "I like cats more than dogs! Cheese tastes pretty good";
+        String actual = IntroLab.insertUtorIDPlaceholder();
+        assertEquals(expected, actual);
+    }
+
 }

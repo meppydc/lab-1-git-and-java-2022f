@@ -42,6 +42,13 @@ public class IntroLab {
      */
 
     /**
+     * A method that greets a random guy using printLabMessage.
+     */
+    public static String insertUtorIDPlaceholder() {
+        return printLabMessage("Hi", "dan", true, "Cheese tastes pretty good.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +66,7 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+        System.out.println(insertUtorIDPlaceholder());
 
 
     }
